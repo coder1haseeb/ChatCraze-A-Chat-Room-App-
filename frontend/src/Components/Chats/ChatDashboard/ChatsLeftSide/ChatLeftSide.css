@@ -1,0 +1,33 @@
+.chat_left_side_div_child_component{
+    margin: 1rem 2rem;
+}
+.header_for_chat_div_left_side_component{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.left_side_header_chat_div_heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.right_side_header_chat_div_options{
+    display: grid;
+    grid-gap: 0 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.single_members_ship_div_for_right_side_left_panel {
+    padding: .7rem;
+    cursor: pointer;
+}
+.single_members_ship_div_for_right_side_left_panel:hover{
+    border-radius: 8px;
+    background-color: rgba(92, 92, 92, 0.2);
+}  
+.name_for_single_chat_membership{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.last_message_for_single_chat_div_in_membership{
+    color: rgba(243, 243, 243, 0.8);
+    font-size: 1.1rem;
+}

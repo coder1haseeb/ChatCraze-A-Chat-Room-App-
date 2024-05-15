@@ -1,0 +1,18 @@
+.chat_dash_board_main_div_for_chat{
+    background-color: #2c2c2c;
+    height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    color: white;
+}
+.left_side_chat_names_and_controller_for_chat{
+    /* box-shadow: 0 0 5px rgb(82, 81, 81); */
+    background-color: #313131;
+    width: 25%;
+    border-radius: 7px;
+}
+.right_side_opened_chat_for_user{
+    /* background-color: rgb(41,     41, 71); */
+    width: 70%;
+}

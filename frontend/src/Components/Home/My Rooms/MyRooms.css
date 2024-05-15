@@ -1,0 +1,37 @@
+.all_chats_maps_div_for_my_rooms_div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding : 2rem;
+}
+.image_div_for_the_chat_image_div_in_single_chat{
+    background-color: rgba(133, 133, 133, 0.2);
+}   
+.all_members_div_map_for_single_room{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.single_member_for_single_chat_in_modal{
+    box-shadow: 0 0 5px rgba(133, 133, 133, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.name_for_the_single_member_div_in_singel_div{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.email_for_the_single_member_div_in_singel_div{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.user_iamge_div_for_the_single_chat{
+    width: 100% ;
+}
+.user_iamge_div_for_the_single_chat img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 8rem;
+}

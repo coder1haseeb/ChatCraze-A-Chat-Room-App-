@@ -1,0 +1,83 @@
+.search_input_div_for_rooms_home_page_from_all_rooms{
+    font-size: 1.2rem;
+    padding: .5rem 0 ;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+.custom_height_for_search_div_modal{
+    height: 80vh !important;
+    overflow-y: scroll;
+}
+.all_room_searched_map_div_for_the_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition: .5s;
+    grid-gap: 10px;
+}
+.single_chat_searched_div_for_the_room_modal{
+    background-color: rgba(59, 59, 59, 0.637) !important;
+    margin: .6rem 0;
+    padding: .6rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.name_of_searched_single_room_div{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.join_now_button_for_the_single_div{
+    width: 100%;
+    margin: .4rem 0;
+    margin-top: auto;
+}
+.owner_name_for_the_chat_div_to_display{
+    color: rgb(179, 179, 179);
+    margin: .2rem 0 ;
+    font-size: 1.2rem;
+}
+.input_for_password_the_chat_joined_single_chat{
+    margin: .6rem 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.637);
+    width: 100%;
+    padding: .3rem 0;
+    outline: none;
+    font-size: 1.1rem;
+}
+.status_of_the_single_room_searched_div{
+    font-size: 1.1rem;
+    display: flex;
+    color: rgb(179, 179, 179);
+}
+.dynamic_stauts_entity_for_the_room_privacy_div{
+    font-weight: 600;
+    margin-left: .5rem;
+}
+.image_div_for_single_searched_chat_div{
+    width: 100%;
+}
+.image_div_for_single_searched_chat_div img{
+    width: 100%;
+}
+.single_members_ship_div_for_right_side_left_panel{
+    align-items: center;
+    display: flex;
+}
+.left_side_for_the_single_membership_div img{
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    width: 3rem;
+    object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+    .all_room_searched_map_div_for_the_grid{
+        grid-template-columns: repeat(1,1fr);
+        transition: .5s;
+    }
+}

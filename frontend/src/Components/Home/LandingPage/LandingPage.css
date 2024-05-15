@@ -1,0 +1,21 @@
+.landing_page_main_div_for_chat_app_home_div {
+    height: calc(100vh - 3.5rem);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../Assets/HeroImage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_side_div_for_hero_section , .right_side_div_for_hero_section{
+    width: 40%;
+}
+.left_side_hero_section_heading_div{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.left_side_hero_sectio_desc_div{
+    font-size: 1.7rem;
+    color: white;
+}

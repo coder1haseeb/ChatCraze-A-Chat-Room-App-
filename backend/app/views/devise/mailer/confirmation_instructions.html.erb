@@ -1,0 +1,61 @@
+<!-- app/views/devise/mailer/confirmation_instructions.html.erb -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Confirmation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1{
+    	text-align : center;
+    }
+    .Hello{
+    	font-size : 1.4rem;
+        font-weight : bold;
+    }
+    h1, p, a {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #198754;
+      color: #fff !important;
+      font-size: 1.4rem;
+      border-radius: 5px;
+      text-decoration: none;
+      position : relative;
+      left : 50%;
+      transform : translate(-50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to ChatCraze!</h1>
+    <p class="Hello">Hello <%= @resource.email %></p>
+    <p>Thank you for signing up. Please click the button below to confirm your email address:</p>
+    <a class="btn" href="<%= confirmation_url(@resource, confirmation_token: @token) %>">Confirm my account</a>
+    <p>If you didn't request this, please ignore this email.</p>
+    <p>Best regards,<br>Your Application Team</p>
+  </div>
+</body>
+</html>
